@@ -2,8 +2,69 @@
 {% block title %} Home {% endblock %} 
 {% block background %} {% load static %} {% static 'core/img/home-bg.jpg' %} {% endblock %} 
 {% block headers%}
+<style>
+
+    a.link {
+        text-decoration: underline;
+        color: blue; 
+    }
+    p {
+        text-align: justify;
+    }
+
+    
+</style>
 <h1>Sebastian García</h1>
 <span class="subheading">Software engineer and biochemical engineer</span>
 {% endblock %} 
 {% block content %}
+
+    <p>I am a Software Developer and Biochemical Engineer with experience in developing web applications with multidisciplinary teams using agile methodologies like SCRUM in Azure dashboards. Some of the technologies I have worked with are:<p>
+
+    <ul>
+        <li><b>Python</b>: Django, Tkinter, Numpy and Pandas</li>
+        <li><b>Node.js</b>: Express, JWT, and React</li>
+        <li><b>Basic Deployment</b>: Digital Ocean, Heroku, and AWS</li>
+        <li><b>Databases</b>: MySQL, PostgreSQL, and MongoDB</li>
+        <li><b>ORMs</b>: MySQL Alchemy, Sequelize, and PyMongo</li>
+    </ul>
+
+    <h1>WORK EXPERIENCE</h1>
+    <ul>
+    <li><b>Software Developer at Movi Software S.A, Cali <i>(June 2022 - Present)</i></b></li>
+    <p>Development and maintenance of a Python-based Desktop/Backend application that consults databases and services, and processes this information at a national level to generate automated daily reports for the electricity sector.</p>
+
+    <li><b>Research assistant at Icesi University, Cali  <i>(August 2021 - March 2022)</i></b></li>
+    <p><b>Functions:</b></p>
+    <ul>
+        <li>Commissioning and supervision of pilot scale fermentations and laboratory.</li>
+        <li>Automation of the processing of all the information of each production batch using Python.</li>
+        <li>Monitoring of the quality standards of the different final products through the application of statistical models of normal distribution in Python.</li>
+    </ul>
+    </ul>
+    
+    {% comment %} <h1>INTERNSHIPS</h1>
+    <ul>
+
+        <li><b>Holberton Capstone</b> - Project with Globant at Globant, Cali <i>(October 2022 - November 2022)</i></li>
+        <ul>
+        <p><b>About the project:</b></p>
+        <p>It consisted of the development of a MERN application for sports events management. <a href="https://github.com/SebasGTX1/ExoGames-Capstone-Project" class='link'>You can check it on github here</a></p>
+        </ul>
+    </ul>  {% endcomment %}  
+    <h1>EDUCATION</h1>
+    <ul>
+        <li><b>Software Developer</b> - Holbertons School, Cali <i>(February 2022 - Nov 2022)</i></li>
+
+        <li><b>Cum Laude Biochemical Engineer</b> - Universidad ICESI, Cali <i>(January 2017 - February 2021)</i></li>
+    </ul>
+    <h1>COURSES</h1>
+    <ul>
+        <li><b>Docker and Kubernetes, Udemy</b> <i>(July 2022 - September 2022)</i></li>
+
+        <li><b>SOLID principles and clean code, Udemy</b> <i>(December 2022 - March 2023)</i></li>
+
+        <li><b>Vim and Linux, increase your development speed, Udemy</b> <i>(January 2022 - March 2022)</i></li>
+    </ul>
+
 {% endblock %}
